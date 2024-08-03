@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2019", "dom"],
+    "skipLibCheck": true,
+    "outDir": "./lib",
+    "strict": true,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@yorkie-js-sdk/src/*": ["src/*"],
+      "@yorkie-js-sdk/test/*": ["test/*"]
+    },
+    "plugins": [
+      { "transform": "typescript-transform-paths" },
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ]
+  },
+  "include": ["./src/**/*", "./test/**/*"],
+  "exclude": ["./node_modules"]
+}

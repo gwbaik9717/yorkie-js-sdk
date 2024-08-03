@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "yorkie-js-sdk",
   "version": "0.4.28",
   "description": "Yorkie JS SDK",
@@ -81,4 +82,27 @@
   "workspaces": [
     "examples/*"
   ]
+=======
+  "name": "yorkie-js-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sdk": "pnpm --filter=yorkie-js-sdk",
+    "create": "pnpm --filter=create-yorkie-app",
+    "devtools": "pnpm --filter=yorkie-devtools",
+    "nextjs-scheduler": "pnpm --filter=nextjs-scheduler",
+    "react-tldraw": "pnpm --filter=react-tldraw",
+    "profile-stack": "pnpm --filter=profile-stack",
+    "react-todomvc": "pnpm --filter=react-todomvc",
+    "simultaneous-cursors": "pnpm --filter=simultaneous-cursors",
+    "vanilla-codemirror6": "pnpm --filter=vanilla-codemirror6",
+    "vanilla-quill": "pnpm --filter=vanilla-quill",
+    "vuejs-kanban": "pnpm --filter=vuejs-kanban"
+  },
+  "keywords": [],
+  "author": "ChaCha",
+  "license": "ISC"
+>>>>>>> pr-746
 }
